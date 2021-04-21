@@ -16,7 +16,7 @@ grant dba to uatuser;
 ```
 
 ### Deployment Flow
-![alt text](https://raw.githubusercontent.com/luodonghua/db_cicd_pipelines/main/deployment%20flow.png "Deployment Flow")
+![alt text](https://github.com/luodonghua/db_cicd_pipelines/blob/main/deployment%20flow.png?raw=true "Deployment Flow")
 
 ### Automation and Integration
 We can put following lines into a shell script and integrate with Jenkins.
