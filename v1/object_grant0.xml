@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+	<changeSet id="afc9430c6e5d0a1bfaa85ff2620f6ad147f600b0" author="(DEVUSER)-Generated" failOnError="false"    >
+		<n0:createOracleGrant objectName="%OBJECT_NAME%" objectType="OBJECT_GRANT" ownerName="DEVUSER"   >
+			<n0:source><![CDATA[
+  GRANT SELECT ON "DEVUSER"."T_SALESREP" TO "HR"]]></n0:source>
+		</n0:createOracleGrant>
+	</changeSet>
+</databaseChangeLog>
