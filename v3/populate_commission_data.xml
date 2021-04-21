@@ -6,7 +6,7 @@
   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
   <changeSet id="RunScriptFilePopulate_T_SALESREP_COMM" author="Donghua">
      <n0:runOracleScript objectName="populate_commission_data" ownerName="Donghua" sourceType="FILE">
-         <n0:source><![CDATA[/u01/db_cicd_pipelines/v3/populate_commission_data.sql.sql]]></n0:source>
+         <n0:source><![CDATA[/u01/db_cicd_pipelines/v3/populate_commission_data.sql]]></n0:source>
      </n0:runOracleScript>
   </changeSet>
 </databaseChangeLog>
