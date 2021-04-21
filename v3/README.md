@@ -19,6 +19,7 @@ Errors encountered:0
 ```
 
 Use lb to run the script as well, detail refer to populate_commission_data.xml
+
 Preview
 ```sql
 SQL> lb updatesql -changelog populate_commission_data.xml
