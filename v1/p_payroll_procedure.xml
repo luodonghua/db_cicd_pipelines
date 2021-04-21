@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog 
+	xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:n0="http://www.oracle.com/xml/ns/dbchangelog-ext" 
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog 
+	http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+	<changeSet id="5dacd599671fa8919dcc001b27d0733cf6b698a9" author="(DEVUSER)-Generated" failOnError="false" context="demo-v1-schema"   >
+		<n0:createOracleProcedure objectName="P_PAYROLL" objectType="PROCEDURE" ownerName="DEVUSER"   >
+			<n0:source><![CDATA[
+  CREATE OR REPLACE EDITIONABLE PROCEDURE "DEVUSER"."P_PAYROLL" 
+as 
+	v_salary 	number;
+begin
+	-- omit implementation detail 
+	null;
+end;
+/]]></n0:source>
+		</n0:createOracleProcedure>
+	</changeSet>
+</databaseChangeLog>
