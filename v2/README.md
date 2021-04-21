@@ -1,4 +1,4 @@
-### Simulate Changes in Dev
+### Simulate changes in Dev
 
 ```sh
 [oracle@ol8 v2]$ sql devuser/devuser@pdb1
